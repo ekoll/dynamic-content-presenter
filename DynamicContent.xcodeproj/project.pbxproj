@@ -18,6 +18,7 @@
 		7FD047EA297C38130018453D /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047E9297C38130018453D /* Labels.swift */; };
 		7FD047EC297C386F0018453D /* ImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047EB297C386F0018453D /* ImageViews.swift */; };
 		7FD047EE297C3A290018453D /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047ED297C3A290018453D /* UIViews.swift */; };
+		7FD047F0297C5C8E0018453D /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047EF297C5C8E0018453D /* TextFields.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		7FD047E9297C38130018453D /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 		7FD047EB297C386F0018453D /* ImageViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViews.swift; sourceTree = "<group>"; };
 		7FD047ED297C3A290018453D /* UIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
+		7FD047EF297C5C8E0018453D /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7FD047E9297C38130018453D /* Labels.swift */,
 				7FD047EB297C386F0018453D /* ImageViews.swift */,
 				7FD047ED297C3A290018453D /* UIViews.swift */,
+				7FD047EF297C5C8E0018453D /* TextFields.swift */,
 			);
 			path = Deisgn;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				7FD047E4297C2B200018453D /* BaseView.swift in Sources */,
 				7FD047EA297C38130018453D /* Labels.swift in Sources */,
 				7FD047EC297C386F0018453D /* ImageViews.swift in Sources */,
+				7FD047F0297C5C8E0018453D /* TextFields.swift in Sources */,
 				7FD047CF297C0FD70018453D /* SceneDelegate.swift in Sources */,
 				7FD047E7297C2B740018453D /* ConstraintsExtensions.swift in Sources */,
 				7FD047E2297C2AED0018453D /* FieldView.swift in Sources */,
