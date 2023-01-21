@@ -17,10 +17,10 @@ extension UIImageView {
     }
 
     static var hint: UIImageView {
-        let imageView = aspectFit(.init(systemName: "info"))
+        let imageView = aspectFit(.init(systemName: "info.circle"))
         imageView.setContentHuggingPriority(.defaultHigh, for: .horizontal)
+        imageView.tintColor = .gray
 
         return imageView
     }
 }
-

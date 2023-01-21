@@ -49,9 +49,9 @@ class FieldView<T: UIView>: BaseControl {
     
     private(set) lazy var hintView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [ hintImage, hintLabel ])
-        stackView.alignment = .top
+        stackView.alignment = .center
         stackView.axis = .horizontal
-        stackView.spacing = 12
+        stackView.spacing = 4
 
         return stackView
     }()
@@ -73,7 +73,7 @@ class FieldView<T: UIView>: BaseControl {
 
         stackView.fitInto(self)
 
-        hintImage.fixHeight(34, withAspectRatio: 1)
+        hintImage.fixHeight(20, withAspectRatio: 1)
 
         input.translatesAutoresizingMaskIntoConstraints = false
         inputHeightConstraint.isActive = true
