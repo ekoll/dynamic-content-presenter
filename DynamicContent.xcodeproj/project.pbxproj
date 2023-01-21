@@ -19,6 +19,7 @@
 		7FD047EC297C386F0018453D /* ImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047EB297C386F0018453D /* ImageViews.swift */; };
 		7FD047EE297C3A290018453D /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047ED297C3A290018453D /* UIViews.swift */; };
 		7FD047F0297C5C8E0018453D /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047EF297C5C8E0018453D /* TextFields.swift */; };
+		7FD047F2297C68D20018453D /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047F1297C68D20018453D /* FormModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		7FD047EB297C386F0018453D /* ImageViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViews.swift; sourceTree = "<group>"; };
 		7FD047ED297C3A290018453D /* UIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
 		7FD047EF297C5C8E0018453D /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		7FD047F1297C68D20018453D /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				7FD047CC297C0FD70018453D /* AppDelegate.swift */,
 				7FD047CE297C0FD70018453D /* SceneDelegate.swift */,
 				7FD047D0297C0FD70018453D /* ViewController.swift */,
+				7FD047F1297C68D20018453D /* FormModel.swift */,
 				7FD047D5297C0FD70018453D /* Assets.xcassets */,
 				7FD047D7297C0FD70018453D /* LaunchScreen.storyboard */,
 				7FD047DA297C0FD70018453D /* Info.plist */,
@@ -182,6 +185,7 @@
 				7FD047D1297C0FD70018453D /* ViewController.swift in Sources */,
 				7FD047CD297C0FD70018453D /* AppDelegate.swift in Sources */,
 				7FD047E4297C2B200018453D /* BaseView.swift in Sources */,
+				7FD047F2297C68D20018453D /* FormModel.swift in Sources */,
 				7FD047EA297C38130018453D /* Labels.swift in Sources */,
 				7FD047EC297C386F0018453D /* ImageViews.swift in Sources */,
 				7FD047F0297C5C8E0018453D /* TextFields.swift in Sources */,
