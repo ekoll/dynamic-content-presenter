@@ -49,12 +49,17 @@ class FormView: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
-        let contnet = viewModel.generateContent()
-        
-        title = contnet.header
-        
-        contnet.views.forEach { view in
-            stackView.addArrangedSubview(view)
+        do {
+            let contnet = try viewModel.generateContent()
+            
+            title = contnet.header
+            
+            contnet.views.forEach { view in
+                stackView.addArrangedSubview(view)
+            }
+        }
+        catch {
+            present(alert(title: "Error", message: error.localizedDescription), animated: true)
         }
     }
     
@@ -66,6 +71,13 @@ class FormView: UIViewController {
     
     @objc func keyboardWillHide(_ notification: Notification) {
         scrollView.contentInset.bottom = 0
+    }
+    
+    func alert(title: String, message: String, handler: (() -> Void)? = nil) -> UIAlertController {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Close", style: .default, handler:  { _ in handler?() }))
+
+        return alert
     }
     
     deinit {

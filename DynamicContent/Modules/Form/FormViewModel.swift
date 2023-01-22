@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 protocol FormRepository {
-    func getForm() -> FormModel
+    func getForm() throws -> FormModel
 }
 
 class FormViewModel {
@@ -19,8 +19,8 @@ class FormViewModel {
         self.repository = repository
     }
     
-    func generateContent() -> Content {
-        let model = repository.getForm()
+    func generateContent() throws -> Content {
+        let model = try repository.getForm()
         
         let views: [UIView] = model.inputs.compactMap { input in
             guard let detal = input.extractViewFromDetal() else {

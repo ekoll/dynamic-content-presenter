@@ -9,7 +9,7 @@ import Foundation
 
 class FakeFormRepository: FormRepository {
     
-    func getForm() -> FormModel {
+    func getForm() throws -> FormModel {
         let string = """
 {
   "header": "Testing",
@@ -39,6 +39,25 @@ class FakeFormRepository: FormRepository {
         "fontName": "Menlo",
         "fontSize": 12
       }
+    },
+    {
+      "title": "Disclaimer",
+      "type": "label",
+      "detail": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      }
+    },
+    {
+      "title": "Language",
+      "type": "combobox",
+      "detail": {
+        "isOptional": false,
+        "fields": {
+          "tr": "Turkish",
+          "en": "English",
+          "fr": "French"
+        }
+      }
     }
   ]
 }
@@ -46,6 +65,6 @@ class FakeFormRepository: FormRepository {
         
         let data = string.data(using: .utf8)!
         
-        return try! JSONDecoder().decode(FormModel.self, from: data)
+        return try JSONDecoder().decode(FormModel.self, from: data)
     }
 }
