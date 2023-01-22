@@ -30,6 +30,7 @@ class FormViewModel {
             let fieldView = FieldView(input: detal)
             fieldView.title = input.title
             fieldView.hint = input.hint
+            fieldView.titleLabel.isHidden = fieldView.title?.isEmpty ?? true
             
             return fieldView
         }
