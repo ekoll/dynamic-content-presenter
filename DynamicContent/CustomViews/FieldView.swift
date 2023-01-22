@@ -34,11 +34,6 @@ class FieldView<T: UIView>: BaseControl {
         }
     }
 
-    var inputHeight: CGFloat {
-        get { inputHeightConstraint.constant }
-        set { inputHeightConstraint.constant = newValue }
-    }
-
     // MARK: - subviews
     let input: T
     let titleLabel: UILabel = .title
@@ -55,8 +50,6 @@ class FieldView<T: UIView>: BaseControl {
 
         return stackView
     }()
-
-    private lazy var inputHeightConstraint: NSLayoutConstraint = .init(item: input, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1, constant: 50)
 
     init(input: T, frame: CGRect = .zero) {
         self.input = input
@@ -76,7 +69,6 @@ class FieldView<T: UIView>: BaseControl {
         hintImage.fixHeight(20, withAspectRatio: 1)
 
         input.translatesAutoresizingMaskIntoConstraints = false
-        inputHeightConstraint.isActive = true
 
         hintView.isHidden = hint?.isEmpty ?? true
     }
