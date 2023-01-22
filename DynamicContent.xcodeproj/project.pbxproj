@@ -22,6 +22,7 @@
 		7FD047F2297C68D20018453D /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047F1297C68D20018453D /* FormModel.swift */; };
 		7FD047F4297D4C440018453D /* PickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047F3297D4C440018453D /* PickerField.swift */; };
 		7FD047F6297D57B60018453D /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047F5297D57B60018453D /* FormViewModel.swift */; };
+		7FD047F8297D5D2E0018453D /* FakeFormRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047F7297D5D2E0018453D /* FakeFormRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		7FD047F1297C68D20018453D /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
 		7FD047F3297D4C440018453D /* PickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerField.swift; sourceTree = "<group>"; };
 		7FD047F5297D57B60018453D /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		7FD047F7297D5D2E0018453D /* FakeFormRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeFormRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				7FD047CE297C0FD70018453D /* SceneDelegate.swift */,
 				7FD047D0297C0FD70018453D /* ViewController.swift */,
 				7FD047F5297D57B60018453D /* FormViewModel.swift */,
+				7FD047F7297D5D2E0018453D /* FakeFormRepository.swift */,
 				7FD047F1297C68D20018453D /* FormModel.swift */,
 				7FD047D5297C0FD70018453D /* Assets.xcassets */,
 				7FD047D7297C0FD70018453D /* LaunchScreen.storyboard */,
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD047F8297D5D2E0018453D /* FakeFormRepository.swift in Sources */,
 				7FD047F6297D57B60018453D /* FormViewModel.swift in Sources */,
 				7FD047D1297C0FD70018453D /* ViewController.swift in Sources */,
 				7FD047CD297C0FD70018453D /* AppDelegate.swift in Sources */,
