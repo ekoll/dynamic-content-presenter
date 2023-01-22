@@ -11,6 +11,10 @@ class FakeFormRepository: FormRepository {
     
     func getForm() -> FormModel {
         let string = """
+{
+  "header": "Testing",
+  "inputs": []
+}
 """
         
         let data = string.data(using: .utf8)!
