@@ -20,6 +20,7 @@
 		7FD047EE297C3A290018453D /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047ED297C3A290018453D /* UIViews.swift */; };
 		7FD047F0297C5C8E0018453D /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047EF297C5C8E0018453D /* TextFields.swift */; };
 		7FD047F2297C68D20018453D /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047F1297C68D20018453D /* FormModel.swift */; };
+		7FD047F4297D4C440018453D /* PickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD047F3297D4C440018453D /* PickerField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		7FD047ED297C3A290018453D /* UIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
 		7FD047EF297C5C8E0018453D /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		7FD047F1297C68D20018453D /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		7FD047F3297D4C440018453D /* PickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				7FD047E3297C2B200018453D /* BaseView.swift */,
 				7FD047E1297C2AED0018453D /* FieldView.swift */,
+				7FD047F3297D4C440018453D /* PickerField.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				7FD047EC297C386F0018453D /* ImageViews.swift in Sources */,
 				7FD047F0297C5C8E0018453D /* TextFields.swift in Sources */,
 				7FD047CF297C0FD70018453D /* SceneDelegate.swift in Sources */,
+				7FD047F4297D4C440018453D /* PickerField.swift in Sources */,
 				7FD047E7297C2B740018453D /* ConstraintsExtensions.swift in Sources */,
 				7FD047E2297C2AED0018453D /* FieldView.swift in Sources */,
 				7FD047EE297C3A290018453D /* UIViews.swift in Sources */,

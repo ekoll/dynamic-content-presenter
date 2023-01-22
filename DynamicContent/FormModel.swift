@@ -34,6 +34,7 @@ extension FormModel {
     
     struct Combobox: Decodable {
         var fields: [String: String]
+        var isOptional: Bool
     }
     
     enum InputType: String, Decodable {
