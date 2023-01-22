@@ -72,6 +72,8 @@ extension FormModel.Input {
         case .label(let detal):
             let label = UILabel()
             label.text = detal.text
+            label.numberOfLines = 0
+            
             if let fontName = detal.fontName {
                 label.font = UIFont(name: fontName, size: UIFont.systemFontSize)
             }
