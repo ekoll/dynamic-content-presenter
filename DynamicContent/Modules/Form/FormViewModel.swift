@@ -49,6 +49,11 @@ extension FormViewModel {
             self.views = views
         }
     }
+    
+    struct PickerFieldData: PickerData {
+        var pickerID: String
+        var pickerText: String
+    }
 }
 
 extension FormModel.Input {
@@ -57,7 +62,11 @@ extension FormModel.Input {
         switch detail {
         case .combobox(let detal):
             let pickerField = PickerField()
+            pickerField.borderStyle = .roundedRect
             pickerField.isOptional = detal.isOptional
+            pickerField.setDataSource(detal.fields.map {
+                FormViewModel.PickerFieldData(pickerID: $0.key, pickerText: $0.value)
+            })
             
             return pickerField
         case .label(let detal):
