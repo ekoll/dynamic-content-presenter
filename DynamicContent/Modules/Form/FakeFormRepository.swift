@@ -13,7 +13,32 @@ class FakeFormRepository: FormRepository {
         let string = """
 {
   "header": "Testing",
-  "inputs": []
+  "inputs": [
+    {
+      "title": "Name",
+      "hint": "Both your name and family name",
+      "type": "textfield"
+    },
+    {
+      "title": "Gender",
+      "type": "combobox",
+      "detail": {
+        "isOptional": true,
+        "fields": {
+          "m": "Male",
+          "f": "Female",
+          "n": "Non-Binary"
+        }
+      }
+    },
+    {
+      "title": "Disclaimer",
+      "type": "label",
+      "detail": {
+        "text": "Lorem ipsum dolor sit amet"
+      }
+    }
+  ]
 }
 """
         
