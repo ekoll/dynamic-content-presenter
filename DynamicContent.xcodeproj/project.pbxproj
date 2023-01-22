@@ -79,12 +79,7 @@
 				7FD047E8297C38080018453D /* Deisgn */,
 				7FD047E5297C2B530018453D /* Extensions */,
 				7FD047E0297C2AD60018453D /* CustomViews */,
-				7FD047CC297C0FD70018453D /* AppDelegate.swift */,
-				7FD047CE297C0FD70018453D /* SceneDelegate.swift */,
-				7FD047D0297C0FD70018453D /* FormView.swift */,
-				7FD047F5297D57B60018453D /* FormViewModel.swift */,
-				7FD047F7297D5D2E0018453D /* FakeFormRepository.swift */,
-				7FD047F1297C68D20018453D /* FormModel.swift */,
+				7FD047F9297D60020018453D /* Modules */,
 				7FD047D5297C0FD70018453D /* Assets.xcassets */,
 				7FD047D7297C0FD70018453D /* LaunchScreen.storyboard */,
 				7FD047DA297C0FD70018453D /* Info.plist */,
@@ -119,6 +114,35 @@
 				7FD047EF297C5C8E0018453D /* TextFields.swift */,
 			);
 			path = Deisgn;
+			sourceTree = "<group>";
+		};
+		7FD047F9297D60020018453D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7FD047FA297D600F0018453D /* AppStart */,
+				7FD047FB297D601A0018453D /* Form */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7FD047FA297D600F0018453D /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				7FD047CC297C0FD70018453D /* AppDelegate.swift */,
+				7FD047CE297C0FD70018453D /* SceneDelegate.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		7FD047FB297D601A0018453D /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				7FD047D0297C0FD70018453D /* FormView.swift */,
+				7FD047F5297D57B60018453D /* FormViewModel.swift */,
+				7FD047F1297C68D20018453D /* FormModel.swift */,
+				7FD047F7297D5D2E0018453D /* FakeFormRepository.swift */,
+			);
+			path = Form;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
