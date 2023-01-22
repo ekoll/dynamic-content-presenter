@@ -35,7 +35,9 @@ class FakeFormRepository: FormRepository {
       "title": "Disclaimer",
       "type": "label",
       "detail": {
-        "text": "Lorem ipsum dolor sit amet"
+        "text": "Lorem ipsum dolor sit amet",
+        "fontName": "Menlo",
+        "fontSize": 12
       }
     }
   ]
